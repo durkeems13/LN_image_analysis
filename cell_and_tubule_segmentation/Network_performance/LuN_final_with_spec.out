@@ -1,0 +1,64 @@
+0.3  THRESHOLD
+
+analysis for detection threshold of 0.25 intersection over union
+
+per class iou with standard deviation
+CD3+CD4+ 0.73 +/- 0.12 CD3+CD4- 0.72 +/- 0.11 CD20+ 0.70 +/- 0.13 BDCA2+ 0.73 +/- 0.11 CD11c+ 0.63 +/- 0.15
+average iou across classes with standard deviation
+0.71 +/- 0.12
+
+per class sensitivty
+CD3+CD4+ 0.84 CD3+CD4- 0.75 CD20+ 0.91 BDCA2+ 0.88 CD11c+ 0.44
+average sensitivity across classes
+0.79
+
+per class specificity
+CD3+CD4+ 0.82 CD3+CD4- 0.85 CD20+ 0.95 BDCA2+ 0.95 CD11c+ 0.95
+average specificity across classes
+0.90
+
+per class precision
+CD3+CD4+ 0.68 CD3+CD4- 0.63 CD20+ 0.81 BDCA2+ 0.40 CD11c+ 0.50
+average precision across classes
+0.66
+
+number of manually segmented cells by class
+CD3+CD4+ 283 CD3+CD4- 223 CD20+ 164 BDCA2+ 32 CD11c+ 88
+total number of manually segmented cells
+1740
+
+iou for all manual cells in set with no detection threshold
+per class iou with standard deviation
+CD3+CD4+ 0.57 +/- 0.32 CD3+CD4- 0.51 +/- 0.34 CD20+ 0.61 +/- 0.27 BDCA2+ 0.40 +/- 0.37 CD11c+ 0.32 +/- 0.33
+0.75  THRESHOLD
+
+analysis for detection threshold of 0.25 intersection over union
+
+per class iou with standard deviation
+CD3+CD4+ 0.73 +/- 0.12 CD3+CD4- 0.72 +/- 0.11 CD20+ 0.70 +/- 0.13 BDCA2+ 0.73 +/- 0.11 CD11c+ 0.63 +/- 0.15
+average iou across classes with standard deviation
+0.71 +/- 0.12
+
+per class sensitivty
+CD3+CD4+ 0.84 CD3+CD4- 0.75 CD20+ 0.91 BDCA2+ 0.88 CD11c+ 0.44
+average sensitivity across classes
+0.79
+
+per class specificity
+CD3+CD4+ 0.82 CD3+CD4- 0.85 CD20+ 0.95 BDCA2+ 0.95 CD11c+ 0.95
+average specificity across classes
+0.90
+
+per class precision
+CD3+CD4+ 0.68 CD3+CD4- 0.63 CD20+ 0.81 BDCA2+ 0.40 CD11c+ 0.50
+average precision across classes
+0.66
+
+number of manually segmented cells by class
+CD3+CD4+ 283 CD3+CD4- 223 CD20+ 164 BDCA2+ 32 CD11c+ 88
+total number of manually segmented cells
+1740
+
+iou for all manual cells in set with no detection threshold
+per class iou with standard deviation
+CD3+CD4+ 0.57 +/- 0.32 CD3+CD4- 0.51 +/- 0.34 CD20+ 0.61 +/- 0.27 BDCA2+ 0.40 +/- 0.37 CD11c+ 0.32 +/- 0.33

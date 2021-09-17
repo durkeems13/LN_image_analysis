@@ -1,0 +1,22 @@
+/project2/l332/durkee_cdm3/mrcnn_human_ffpe_ss_DC/Network_performance/tifffile.py:8211: UserWarning: No module named '_tifffile'
+  Functionality might be degraded or be slow.
+
+  warnings.warn('%s%s' % (e, warn))
+get_prediction_features_joint.py:242: FutureWarning: Sorting because non-concatenation axis is not aligned. A future version
+of pandas will change to not sort by default.
+
+To accept the future behavior, pass 'sort=False'.
+
+To retain the current behavior and silence the warning, pass 'sort=True'.
+
+  all_cells = pd.concat([all_cells,man_df,auto_df])
+/project2/l332/durkee_cdm3/mrcnn_human_ffpe_ss_DC/Network_performance/tifffile.py:8211: UserWarning: No module named '_tifffile'
+  Functionality might be degraded or be slow.
+
+  warnings.warn('%s%s' % (e, warn))
+Traceback (most recent call last):
+  File "get_prediction_features_joint.py", line 248, in <module>
+    main()
+  File "get_prediction_features_joint.py", line 89, in main
+    gt_pkl = pkl.load(open(os.path.join(gtfolder,case_gt_name),'rb'))
+FileNotFoundError: [Errno 2] No such file or directory: '../data/manual_pkls/Human_FFPE_ss_GT/S04-2336_0001.tif.pkl'
